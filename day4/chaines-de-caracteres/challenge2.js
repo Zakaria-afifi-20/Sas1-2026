@@ -2,15 +2,15 @@ const prompt = require("prompt-sync")();
 function compterLetrre(chaine, lettre)
 {
     let len = chaine.length
-    let nomrelettre = 0
+    let nombrelettre = 0
 
     for(let i=0 ; i <= len ; i++)
     {
       if(lettre == chaine[i])
-      { nomrelettre++}
+      { nombrelettre++}
       
     }
-    console.log(`Le nombre de ${lettre} dans ${chaine} est : ${nomrelettre}`)
+    console.log(`Le nombre de ${lettre} dans ${chaine} est : ${nombrelettre}`)
 }
 
 let mot = prompt("Entrer un mot : ")

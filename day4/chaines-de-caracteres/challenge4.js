@@ -4,7 +4,7 @@ function compterVoyelles(chaine)
 {
     let len = chaine.length
     let compt = 0
-    
+
    for(let i=0 ; i < len ; i++)
    {
     let car = chaine[i]
@@ -16,3 +16,6 @@ function compterVoyelles(chaine)
 
  let mot = prompt("Entrer un mot : ")
  compterVoyelles(mot)
+
+
+ 

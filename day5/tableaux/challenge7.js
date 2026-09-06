@@ -13,7 +13,7 @@ let compt = 0
        compt ++
      }
    }   
-console.log(newtab)
+  return newtab
 }
 
 let tableau = [1,2,3,4,5,6]

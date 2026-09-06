@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-function contientElement(tab)
+function FilterPaires(tab)
 {
 let len = tab.length
 let newtab = []
@@ -17,4 +17,4 @@ console.log(newtab)
 }
 
 let tableau = [1,2,3,4,5,6]
-console.log(contientElement(tableau))
+console.log(FilterPaires(tableau))

@@ -8,7 +8,7 @@ function inverserTableau(tab)
     for(let i=len ; i>=0 ; i--)
    {
      newtab[compt] = tab [i]
-    compt ++
+     compt ++
    } 
    console.log(newtab)
 } 

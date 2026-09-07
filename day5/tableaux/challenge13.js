@@ -1,10 +1,9 @@
 function trouverPremierMajeur(utilisateur)
 {
-  utilisateur = {
-    nom: "Ahmed",
-    age: 22
-    
+ return utilisateur.find(a => a.age>=18)
 }
-   
-}
-trouverPremierMajeur()
+const user =[{nom: "Ahmed",age: 15 },
+            {nom: "Lina",age: 20 },
+            {nom: "Amine",age: 12 },
+            {nom: "Oussama",age: 22 }]
+console.log(trouverPremierMajeur(user))

@@ -1,0 +1,6 @@
+function trouverPremierMajeur(utilisateur)
+{
+  
+   
+}
+trouverPremierMajeur()

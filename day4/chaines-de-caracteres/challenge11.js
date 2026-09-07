@@ -10,3 +10,4 @@ function formmaterText(chaine)
 
 let mot = prompt("Entrer un mot : ")
 formmaterText(mot)
+
